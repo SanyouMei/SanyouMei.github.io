@@ -1,0 +1,25 @@
+# jemdoc: menu{Menu}{index.html}, notime, addcss{C:\Users\lhyou\Desktop\jemdoc\jemdoc.css}
+==Hanyang Li
+
+~~~
+{}{img_left}{photos.jpg}{}{156}{189}{}
+
+I am a first-year Ph.D. student in the [https://cse.umn.edu/isye Department of Industrial and Systems Engineering (ISyE)] at [https://twin-cities.umn.edu/ University of Minnesota (UMN)], where I am fortunate to be advised by Professor [https://sites.google.com/site/optyingcui/ Ying Cui]. I obtained a B.S. in [http://math.ustc.edu.cn/ENGLISH/list.htm Mathematics] from [http://en.ustc.edu.cn/ University of Science and Technology of China (USTC)] in 2021. My current research interests lie broadly in optimization and statistics.
+
+~~~
+
+
+== Contact:
+- E-mail: li002492@umn.edu
+
+== Education
+- University of Minnesota, Twin Cities\n
+Ph.D. in Operations Research, Sept. 2021 - Present
+
+- University of Science and Technology of China\n
+B.S. in Mathematics and Applied Mathematics, Sept. 2017 - Jun. 2021
+
+== Research interest:
+- Optimization and decision-making under uncertainty
+- Theory and algorithms for continuous optimization, including structured nonsmooth nonconvex
+optimization and optimization problems arising in statistical analysis.

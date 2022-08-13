@@ -1,3 +1,2 @@
 # SanyouMei.github.io
-Personal Website of Professor Lu
-Test run
+Personal Website of Sanyou Mei

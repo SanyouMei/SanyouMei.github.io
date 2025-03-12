@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanyou Mei - Homepage</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: #002855;
+            color: white;
+            padding: 5px 0;
+            margin-bottom: 0px;
+        }
+        
+        nav {
+            background-color: #cbd2d46d;
+            padding: 5px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+        
+        .active {
+            border-bottom: 2px solid white;
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 30px;
+            border: 3px solid #002855;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #002855;
+            border-bottom: 2px solid #002855;
+            padding-bottom: 5px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: #000000;
+            margin-top: 5px;
+        }
+        
+        .contact-info {
+            margin-top: 20px;
+        }
+        
+        .contact-info p {
+            margin: 5px 0;
+        }
+        
+        .social-links {
+            margin-top: 15px;
+        }
+        
+        .social-links a {
+            margin-right: 15px;
+            color: #002855;
+            text-decoration: none;
+        }
+        
+        footer {
+            background-color: #002855;
+            color: white;
+            text-align: right;
+            padding: 10px 0;
+            margin-top: 400px;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .profile-image {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+
+         /* Back to top button styling */
+         #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #002855;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        #back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        #back-to-top:hover {
+            background-color: #555;
+        }
+        
+        /* Arrow styling */
+        .arrow-up {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 5px;
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+        
+        /* For screen readers */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sanyou Mei &nbsp &nbsp 梅三友</h1>
+            
+        </div>
+    </header>
+    
+    <nav align="right">
+                <a href="#education">Education</a>
+                <a href="#research">Research</a>
+                <a href="#teaching">Teaching</a>
+                &nbsp &nbsp &nbsp
+    </nav>
+    
+    <main class="container">
+        <br />
+        <section class="profile">
+            <img src="photo3.jpg" alt="" width="180px" height="241px" />&nbsp &nbsp&nbsp&nbsp&nbsp;</td>
+            <div>
+                <div class="contact-info">
+                    
+                    <p class="subtitle">Ph.D. Student</p>
+                    <p><strong>Department of Industrial and Systems Engineering</strong></p>
+                    <p>University of Minnesota</p>
+                    <p>Email: mei00035@umn.edu</p>
+                    <p>Office: 235B Lind Hall</p>
+                    <div class="social-links">
+                        <a href="https://scholar.google.com/citations?user=7GWhs6oAAAAJ&hl=en&oi=ao">Google Scholar</a>
+                        <a href="https://www.researchgate.net/profile/Sanyou_Mei">ResearchGate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>About Me</h2>
+            <p>I am currently a fifth-year Ph.D. student in the <a href="https://cse.umn.edu/isye">Department of Industrial and Systems Engineering</a> at <a href="https://twin-cities.umn.edu/">University of Minnesota</a>, where I am fortunate to be advised by Professor <a href="https://zhaosong-lu.github.io/">Zhaosong Lu</a>. I finished my undergraduate study in the <a href="http://en.scgy.ustc.edu.cn/">School of the Gifted Young</a> at <a href="http://en.ustc.edu.cn/">University of Science and Technology of China</a> and obtained B.S. degree in <a href="http://math.ustc.edu.cn/ENGLISH/list.htm">Mathematics</a> in 2020. </p>
+            <p>I will join the <a href="https://ieda.ust.hk/eng/index.php">Department of Industrial Engineering and Decision Analytics</a> at the <a href="https://hkust.edu.hk">Hong Kong University of Science and Technology</a> as an Assistant Professor this fall.</p>
+        </section>
+        
+        <section id="education">
+            
+            <h2>Education</h2>
+            <ul>
+            <li><p>University of Minnesota<br />
+                Ph.D. in Industrial Engineering, Sept. 2020 -Present<br />
+                M.S. in Industrial and Systems Engineering, Sept. 2020 - Apr. 2023</p>
+                </li>
+                </ul>
+                
+                <ul>
+                <li><p>University of Science and Technology of China<br />
+                B.S. in Mathematics and Applied Mathematics, Sept. 2016 - Jun. 2020</p>
+                </li>
+        </section>
+
+        
+
+        <section id="research">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Algorithm design and analysis for bilevel, minimax, stochastic, distributed, and online optimization</li>
+                <li>Applications for data science, AI/machine learning, healthcare, and decision-making under uncertainty</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Honors</h2>
+            </ul>
+            <ul>
+            <li><p> <a href="https://connect.informs.org/optimizationsociety/prizes/students-prize/2024">INFORMS Optimization Society 2024 Student Paper Prize Honorable Mention</a><br />
+            for the paper "Accelerated first-order methods for convex optimization with locally Lipschitz continuous gradient" coauthored with Prof. Zhaosong Lu.<br /></p>
+            </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Research Papers</h2>
+            <ul>
+                <li><a href="https://sanyoumei.github.io/SVRG_deterministic_constr.pdf">Variance-reduced first-order methods for deterministically constrained stochastic nonconvex optimization with strong convergence guarantees</a> (with Z. Lu and Y. Xiao), submitted.
+                </li>
+                <li>A first-order method for nonconvex-strongly-concave constrained minimax optimization</a> (with Z. Lu), submitted.
+                </li>
+                <li>Solving bilevel optimization via sequential minimax optimization</a> (with Z. Lu), submitted.
+                </li>
+                <li><a href="https://sanyoumei.github.io/ALminimax.pdf">A first-order augmented Lagrangian method for constrained minimax optimization</a> (with Z. Lu), accepted by <i>Mathematical Programming</i>, 2024.
+                </li>
+                <li><a href="https://sanyoumei.github.io/MI.pdf">Primal-dual extrapolation methods for monotone inclusions under local Lipschitz continuity</a> (with Z. Lu), to appear in <i>Mathematics of Operations Research</i>, 2024.
+                </li>
+                <li><a href="https://sanyoumei.github.io/Penalty_bilevel_optimization.pdf">First-order penalty methods for bilevel optimization</a> (with Z. Lu), <i>SIAM Journal on Optimization</i>, 34(2), 1937-1969, 2024.
+                </li>
+                <li><a href="https://sanyoumei.github.io/AccLocal.pdf">Accelerated first-order methods for convex optimization with locally Lipschitz continuous gradient</a> (with Z. Lu), <i>SIAM Journal on Optimization</i>, 33(3): 2275-2310, 2023.
+                </li>
+            </ul>
+        </section>
+        
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <ul>
+              <li>IE 2021: Engineering Economics, Teaching Assistant, Fall 2021, 2022, 2023.
+              </li>
+              <li>IE 3011: Optimization I, Teaching Assistant, Fall 2021.
+              </li>
+              <li>IE 5531/MATH 5711: Engineering Optimization I, Teaching Assistant, Fall 2024.
+              </li>
+              <li>IE 5545: Decision Analysis, Teaching Assistant, Spring 2022.
+              </li>
+              <li>IE 5561: Analytics and Data-Driven Decision Making, Teaching Assistant, Spring 2022, 2023, 2024.
+              </li>
+              <li>IE 8564: Optimization for Machine Learning, Teaching Assistant, Fall 2022, 2024.
+              </li>
+              </ul>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p align="right"> Last updated: March 2025</p>
+        </div>
+    </footer>
+
+
+
+        <!-- Back to top button -->
+        <button id="back-to-top" aria-label="Back to top">
+            <span class="arrow-up"></span>
+            <span class="sr-only">Back to top</span>
+        </button>
+        
+        <script>
+            // Get the button
+            const backToTopButton = document.getElementById("back-to-top");
+            
+            // Show the button when the user scrolls down 300px from the top
+            window.onscroll = function() {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    backToTopButton.classList.add("visible");
+                } else {
+                    backToTopButton.classList.remove("visible");
+                }
+            };
+            
+            // Scroll to the top when the button is clicked
+            backToTopButton.addEventListener("click", function() {
+                // For modern browsers
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+                
+                // For older browsers that don't support smooth scrolling
+                // Uncomment this if you need to support older browsers
+                /*
+                function scrollToTop() {
+                    const currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+                    if (currentPosition > 0) {
+                        window.requestAnimationFrame(scrollToTop);
+                        window.scrollTo(0, currentPosition - currentPosition / 8);
+                    }
+                }
+                scrollToTop();
+                */
+            });
+        </script>
+</body>
+</html>
